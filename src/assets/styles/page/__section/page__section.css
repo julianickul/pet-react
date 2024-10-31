@@ -1,0 +1,13 @@
+.page__section {
+	min-width: 282px;
+	max-width: 882px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 100%;
+}
+@media (max-width:1280px) {
+	.page__section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

@@ -1,0 +1,9 @@
+.form__button-container {
+	display: flex;
+}
+.form__button-container .form__button {
+	margin-top: 0;
+}
+.form__button-container .form__button:first-child {
+	margin-right: 20px;
+}

@@ -1,0 +1,12 @@
+.profile__description {
+	margin: 0;
+	font-size: 14px;
+	line-height: 17px;
+	grid-area: description;
+}
+@media (min-width:1024px) {
+	.profile__description {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

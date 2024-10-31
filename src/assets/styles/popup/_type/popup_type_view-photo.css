@@ -1,0 +1,14 @@
+.popup_type_view-photo .popup__content {
+	background-color: transparent;
+	padding: 0;
+	max-width: 75vw;
+	max-height: 75vh;
+	width: auto;
+	height: auto;
+}
+.popup_type_view-photo .popup__title {
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: normal;
+	color:#fff;
+}

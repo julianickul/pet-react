@@ -1,0 +1,20 @@
+.button {
+	transition: all .5s ease;
+	border: 0;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	text-indent: -999px;
+	overflow: hidden;
+	outline: none;
+}
+.button:hover {
+	opacity: .6;
+}
+.button:focus {
+	outline: none;
+} 

@@ -1,0 +1,5 @@
+.form__button_type_disabled {
+	opacity: .2;
+	background-color: transparent;
+	color: #000;
+}

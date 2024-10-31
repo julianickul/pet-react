@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import StoreProvider from './app/contexts/store.context';
+import api from './app/services/api.service';
+import { HomePage } from './pages/home/index';
+
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	// const [userData, setUserData] = useState<IUserState>({
+	// 	name: '',
+	// 	about: '',
+	// 	avatar: './',
+	// 	_id: ''
+	// });
+
+	// const [cards, setCards] = useState([]);
+	// const store = {
+  //   user: userData,
+  //   cards: cards,
+  // }
+
+	// useEffect(() => {
+	// 	api.getAplicationData()
+	// 		.then(([userData, сardsData]) => {
+	// 			console.log('userData', userData)
+	// 			setUserData(userData);
+	// 			// setCards(сardsData);
+	// 		})
+	// 		.catch(err => {
+	// 			// renderError(`Невозможно обновить данные приложения: ${err}`);
+	// 		})
+	// }, []);
+
+
+	return (
+		<StoreProvider>
+			<HomePage />
+		</StoreProvider>
+	);
 }
 
 export default App;

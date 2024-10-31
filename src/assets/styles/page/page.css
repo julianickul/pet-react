@@ -1,0 +1,11 @@
+@import url('./__section/page__section.css');
+
+.page {
+	background: #000;
+	color:#fff;
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	height: 100%;
+	/*display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;*/
+}
